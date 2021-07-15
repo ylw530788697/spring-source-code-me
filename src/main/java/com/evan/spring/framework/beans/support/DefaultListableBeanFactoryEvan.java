@@ -13,5 +13,5 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class DefaultListableBeanFactoryEvan extends AbstractApplicationContextEvan {
     //存储注册信息的BeanDefinition
-    protected final Map<String, BeanDefinitionEvan> beanDefinitionEvanMap=new ConcurrentHashMap<String, BeanDefinitionEvan>();
+    protected final Map<String, BeanDefinitionEvan> beanDefinitionMap=new ConcurrentHashMap<String, BeanDefinitionEvan>();
 }

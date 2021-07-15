@@ -11,4 +11,8 @@ import lombok.Data;
 public class BeanWrapperEvan {
     private Object wrappedInstance;
     private Class<?> wrappedClass;
+
+    public BeanWrapperEvan(Object wrappedInstance) {
+        this.wrappedInstance = wrappedInstance;
+    }
 }
